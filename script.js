@@ -7,6 +7,10 @@ const swiper = new Swiper(".swiper", {
   touchAngle: 45,
   grabCursor: true,
 
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 10,
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
